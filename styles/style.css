@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+
+}
+
+#main {
+    height: 100vh;
+    background-image: url(/photos/law.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#text {
+    height: 300px;
+
+}
+
+#list {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+
+}
+#list ul  {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#list ul li {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+#list ul li a {
+    text-decoration: none;
+    margin: 2em;
+    font-size: 1.5em;
+
+    font-family: 'Arial Black';
+    text-decoration-color: black;
+
+}
