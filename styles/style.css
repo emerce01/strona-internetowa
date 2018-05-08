@@ -9,13 +9,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: grid;
+
 
 }
 
-#text {
-    height: 300px;
 
-}
 
 #list {
     display: flex;
@@ -40,8 +39,36 @@ body {
     text-decoration: none;
     margin: 2em;
     font-size: 1.5em;
-
-    font-family: 'Arial Black';
+    color: black;
+    font-family: 'Tauri';
     text-decoration-color: black;
 
 }
+
+.txt {
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+
+}
+
+#text {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+#napis {
+    padding-top: 2em;
+    height: 100px;
+    font-family: 'Tauri';
+}
+
+#tekst {
+
+}
+
+
