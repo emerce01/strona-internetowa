@@ -4,12 +4,13 @@ body {
 }
 
 #main {
-    height: 100vh;
+    height: 140vh;
     background-image: url(/photos/law.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: grid;
+    position: relative;
 
 
 }
@@ -20,6 +21,8 @@ body {
     display: flex;
     justify-content: flex-end;
     padding: 1em;
+    width: auto;
+    height: 200px
 
 }
 #list ul  {
@@ -43,14 +46,6 @@ body {
     font-family: 'Tauri';
     text-decoration-color: black;
 
-}
-
-.txt {
-    height: 100px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    font-size: 2.5em;
 
 }
 
@@ -61,10 +56,15 @@ body {
     flex-wrap: wrap
 }
 
-#napis {
-    padding-top: 2em;
+#NAPIS {
     height: 100px;
     font-family: 'Tauri';
+    color: white;
+    text-align: center;
+    font-size: 3.5em;
+    position: absolute;
+    top: 50%;
+    left: 4%;
 }
 
 #tekst {
