@@ -69,12 +69,17 @@ body {
 
     text-align: justify;
     font-family: 'Arial';
-    padding: 4.5em;
+    padding-bottom: 4.5em;
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-top: 3em;
+    font-size: 1.4em;
 }
 
 h1 {
     font-family: 'Tauri';
     text-align: center;
+    margin-top: 2em;
 }
 
 #text {
@@ -89,6 +94,10 @@ h1 {
     padding: 1em;
 }
 
+h2 {
+    text-align: center;
+    font-family: 'Arial'
+}
 
 #karty img {
     height: 150px;
