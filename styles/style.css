@@ -50,10 +50,8 @@ body {
 }
 
 #text {
-    height: 800px;
+    height: 700px;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap
 }
 
 #NAPIS {
@@ -67,8 +65,32 @@ body {
     left: 4%;
 }
 
-#tekst {
+#CONTENT {
 
+    text-align: justify;
+    font-family: 'Arial';
+    padding: 4.5em;
+}
+
+h1 {
+    font-family: 'Tauri';
+    text-align: center;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+}
+
+#karty{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em;
 }
 
 
+#karty img {
+    height: 150px;
+    width: 150px;
+}
