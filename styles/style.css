@@ -91,6 +91,7 @@ h1 {
     justify-content: space-around;
     padding: 1em;
     margin: 2em;
+    padding-bottom: 2em;
 }
 #pomoc {
     text-align: center;
@@ -119,13 +120,10 @@ h2 {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding-top: em;
     margin-left: 3em;
-    margin-top: 5em;
+    margin-top: 3em;
     font-family: 'Arial';
     font-size: 2em;
-    line-height: 2em;
-
 }
 
 
