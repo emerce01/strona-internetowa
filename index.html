@@ -5,6 +5,14 @@
     <title>Document</title>
     <link href='https://fonts.googleapis.com/css?family=Tauri' rel='stylesheet'>
     <link rel="stylesheet" href="/styles/style.css">
+     <style>
+      #map {
+        height: 600px;
+        width: 600px;
+         margin-left: 4em;
+          margin-top: 8em;
+       }
+    </style>
 </head>
 <body>
 
@@ -28,6 +36,25 @@
         <div id="Śmierć"><img src="ikonki/%C5%9Bmier%C4%87.png" alt="Śmierć"><h2>Śmierć</h2></div>
         <div id="Pieniądze"><img src="ikonki/hajs.png" alt="Pieniądze"><h2>Pieniądze</h2></div>
     </div>
+</div>
+<div id="KONTAKT">
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 53.560606, lng: 14.833940};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCez4m8WL-oV6BipWa9p-5GZRY7vFl3m2A&callback=initMap">
+    </script>
 </div>
 </body>
 </html>
